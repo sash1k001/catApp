@@ -95,7 +95,7 @@ namespace WpfApp1
             if(happy > 100)
             {
                 MessageBox.Show("Кот счастлив", "Message", MessageBoxButton.OK, MessageBoxImage.Information);
-                mainImage.Source = BitmapFrame.Create(new Uri(@"C:\Users\Саша\Desktop\WpfApp1\WpfApp1\066b966b82a7e96c32d01b5007615f4b.jpg"));
+                mainImage.Source = BitmapFrame.Create(new Uri(@"https://kappa.lol/dtct2"));
                 happy -= 40;
             }
             else
